@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src = "ecom.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Assignment 1</h2>
+  <p>Cost Calculation</p>
+  <form>
+    <div class="form-group">
+      <label for="Base Product">Base Product:</label>
+      <input type="number" class="form-control" id="bp" name="bpf">
+    </div>
+    <div class="form-group">
+      <label for="Edi connector">Edi connector:</label>
+      <input type="number" class="form-control" id="edi" name="edif">
+    </div>
+    <div class="form-group">
+      <label for="sales module">sales module:</label>
+      <input type="number" class="form-control" id="sm" name="smf">
+    </div>
+    <div class="form-group">
+      <label for="Marketing module">Marketing module:</label>
+      <input type="number" class="form-control" id="mm" name="mmf">
+    </div>
+    <div class="form-group">
+      <label for="Services">Services:</label>
+      <input type="number" class="form-control" id="svc" name="svf">
+    </div>
+    <div class="form-group">
+      <label for="Tax">Tax:</label>
+      <input type="number" class="form-control" id="tax" name="taxf">
+    </div>
+    
+    <button type="button" class="btn btn-primary" onclick="calculatep()">Submit</button><br>
+    <h2></h2>
+    <h2 id = "disp">Total :</h2>
+  </form>
+</div>
+    
+      
+    
+  
+
+</body>
+</html>

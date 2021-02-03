@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mean Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="Stylesheet" href="style.css">
+  <script src="ScriptB.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: rgb(94, 15, 15);
+  }
+    
+  </style>
+</head>
+<body>
+<!--
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>My First Bootstrap 4 Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div> !-->
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="T1.jpg" alt="Transport1">
+      </div>
+      <div class="carousel-item">
+        <img src="T2.jpg" alt="Transport2">
+      </div>
+      <div class="carousel-item">
+        <img src="T3.jpg" alt="New Transport3">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+<!--<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>    
+    </ul>
+  </div>  
+</nav> -->
+<div class="container">
+    <div class="row">
+        <div class="four col-md-3">
+            <div class="counter-box colored"> <i class="fa fa-thumbs-o-up"></i> <span class="counter">2147</span>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+        <div class="four col-md-3">
+            <div class="counter-box"> <i class="fa fa-group"></i> <span class="counter">3275</span>
+                <p>Registered Members</p>
+            </div>
+        </div>
+        <div class="four col-md-3">
+            <div class="counter-box"> <i class="fa fa-shopping-cart"></i> <span class="counter">289</span>
+                <p>Available Products</p>
+            </div>
+        </div>
+        <div class="four col-md-3">
+            <div class="counter-box"> <i class="fa fa-user"></i> <span class="counter">1563</span>
+                <p>Saved Trees</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <!--<h2>About US</h2>
+      <h5>Photo of me:</h5>
+      <div class="fakeimg">Fake Image</div>-->
+      <img src="aboutus.jpg" class="rounded" width="350" height="220"> 
+      <p>Thank you for your time to visit us , we are a group of
+          highly motivated team catering to your every need of supply chain.Please feel free to blog about 
+          our products.
+      </p>
+      <h3>More...</h3>
+      
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Customers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Case Study</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Departments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CSR</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+
+    <div class="col-sm-8">
+        <h2>Products</h2>
+        
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                Supply Chain Management Consulting
+              </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+              <div class="card-body">
+                For many companies, supply chain performance affects 100 percent of company revenue but only part of the income statement. Supply chain problems have a significant impact across the rest of the business, as do supply chain successes. If you could improve the health and visibility of your supply chain and your business, wouldn’t you?
+                Together with Supply Chain Management Review (SCMR), Anaplan surveyed dozens of supply chain leaders about the effectiveness of their supply chain management strategies.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+              Shipment Tracking and Documentation
+            </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                Receive real-time ETAs and incident alerts based on the status of your shipments throughout their journey, helping you meet sustainability standards and take action to avoid delays.
+                Gain a deep understanding of where your assets are located, as well as the context around their status – including temperature, humidity and shock – to help you make better and more informed decisions.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                Warehousing
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                Warehouse management is the control of the day-to-day operations of a warehouse, such as the shipping, receiving, put-away and picking of goods. Is it the same as Stock Control? The term is sometimes used interchangeably with the 'stock control' or 'inventory control'.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="blog">Blog It:</label>
+            <textarea class="form-control" rows="5" id="blog"></textarea>
+          </div>
+          <input type="submit" class="btn btn-info" value="Submit Button" onclick= "displaytext()">
+          <div class="jumbotron text-center" style="margin-bottom:0">
+             <p id = "disp"></p>
+          </div>
+         
+      </div>
+
+      
+     <!-- 
+    <div class="col-sm-8">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+</div>
+
+-->
+
+
+
+</body>
+</html>
